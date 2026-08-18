@@ -1,0 +1,232 @@
+{
+  "common": {
+    "brandName": "Al-Fky Center",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "cta": {
+      "getInTouch": "Get in Touch",
+      "viewServices": "View Services",
+      "callNow": "Call Now",
+      "whatsapp": "WhatsApp",
+      "learnMore": "Learn More"
+    },
+    "footer": {
+      "description": "Your trusted partner for smartphone repair. Specializing in iPhone repairs of all versions with professional expertise and genuine parts.",
+      "quickLinks": "Quick Links",
+      "contactInfo": "Contact Info",
+      "phone": "010004442488",
+      "address": "Ahmed Hassan St., Al Warraq, Al Warraq District, Giza Governorate",
+      "workingHours": "Working Hours",
+      "workingHoursValue": "Daily: 1:00 PM – 12:00 AM (Midnight)",
+      "copyright": "© {year} Al-Fky Center. All rights reserved.",
+      "madeWith": "Made with ❤️ by Mahmoud Elfky"
+    },
+    "language": "العربية"
+  },
+  "home": {
+    "meta": {
+      "title": "Al-Fky Center | Smart Device Repair Expert in Giza",
+      "description": "Professional smartphone repair services in Al Warraq, Giza. Specializing in iPhone screen repair, battery replacement, motherboard repair, and more. Expert technician Mahmoud Elfky. Call 010004442488."
+    },
+    "hero": {
+      "greeting": "Welcome to",
+      "title": "Al-Fky Center",
+      "subtitle": "Smart Device Maintenance",
+      "description": "Professional smartphone repair services with expertise in all iPhone models. Fast turnaround, genuine parts, and guaranteed satisfaction.",
+      "badge": "🔧 iPhone Repair Specialist"
+    },
+    "stats": {
+      "experience": "Years Experience",
+      "devicesRepaired": "Devices Repaired",
+      "happyCustomers": "Happy Customers",
+      "iphoneModels": "iPhone Models Supported"
+    },
+    "featured": {
+      "title": "Our Top Services",
+      "subtitle": "Professional repair solutions for all your smart device needs"
+    },
+    "whyUs": {
+      "title": "Why Choose Al-Fky Center?",
+      "subtitle": "We deliver excellence in every repair",
+      "certified": {
+        "title": "Certified Expertise",
+        "description": "Professional engineer with deep knowledge in micro-soldering and advanced smartphone repair techniques."
+      },
+      "fast": {
+        "title": "Fast Turnaround",
+        "description": "Most repairs completed same-day. We value your time and get your device back to you quickly."
+      },
+      "warranty": {
+        "title": "Repair Warranty",
+        "description": "All our repairs come with a warranty period for your peace of mind and confidence."
+      },
+      "genuine": {
+        "title": "Quality Parts",
+        "description": "We use high-quality replacement parts to ensure your device performs at its best."
+      }
+    },
+    "ctaBanner": {
+      "title": "Need Your Device Fixed?",
+      "description": "Bring your smartphone to Al-Fky Center today and get it repaired by a professional engineer.",
+      "button": "Contact Us Now"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About Mahmoud Elfky | Smart Device Maintenance Engineer",
+      "description": "Learn about Mahmoud Elfky, a professional Smart Device Maintenance Engineer specializing in iPhone repairs. Years of experience in micro-soldering and advanced repair techniques."
+    },
+    "hero": {
+      "title": "About Me",
+      "subtitle": "The Story Behind Al-Fky Center"
+    },
+    "bio": {
+      "title": "Mahmoud Elfky",
+      "role": "Smart Device Maintenance Engineer",
+      "description": "I am Mahmoud Elfky, a passionate Smart Device Maintenance Engineer with years of experience in repairing smartphones, especially iPhones of all versions. My journey in the world of electronics repair started with a deep curiosity about how devices work, which evolved into professional expertise in diagnosing and fixing complex hardware and software issues.",
+      "description2": "At Al-Fky Center, I combine technical knowledge with a commitment to quality service. Every device that comes through our doors receives careful attention and expert repair using professional techniques and quality parts."
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "subtitle": "Areas of expertise and specialization",
+      "iphoneRepair": "iPhone Hardware Repair",
+      "microSoldering": "Micro-Soldering",
+      "softwareTroubleshooting": "Software Troubleshooting",
+      "androidRepair": "Android Device Repair",
+      "dataRecovery": "Data Recovery",
+      "boardRepair": "Motherboard Repair"
+    },
+    "experience": {
+      "title": "Experience & Journey",
+      "subtitle": "Key milestones in my professional career",
+      "milestone1": {
+        "year": "2018",
+        "title": "Started the Journey",
+        "description": "Began learning smartphone repair and electronics fundamentals."
+      },
+      "milestone2": {
+        "year": "2020",
+        "title": "Specialized in iPhone Repair",
+        "description": "Focused on mastering iPhone repairs across all models and versions."
+      },
+      "milestone3": {
+        "year": "2022",
+        "title": "Advanced Micro-Soldering",
+        "description": "Developed advanced micro-soldering skills for motherboard-level repairs."
+      },
+      "milestone4": {
+        "year": "2024",
+        "title": "Opened Al-Fky Center",
+        "description": "Established Al-Fky Center in Al Warraq, Giza to serve the community."
+      }
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Services | Al-Fky Center - Smartphone Repair Services",
+      "description": "Complete smartphone repair services including iPhone screen repair, battery replacement, motherboard repair, water damage recovery, and more at Al-Fky Center, Giza."
+    },
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive repair solutions for all smart devices"
+    },
+    "items": {
+      "iphoneScreen": {
+        "title": "iPhone Screen Repair",
+        "description": "Professional screen replacement for all iPhone models. We use high-quality displays to restore your phone's original look and touch responsiveness."
+      },
+      "iphoneBattery": {
+        "title": "iPhone Battery Replacement",
+        "description": "Restore your iPhone's battery life with a professional battery replacement. Get your device running like new again."
+      },
+      "motherboard": {
+        "title": "Motherboard Repair",
+        "description": "Advanced micro-soldering and motherboard repair for complex issues. Expert diagnosis and repair of IC components and circuits."
+      },
+      "waterDamage": {
+        "title": "Water Damage Recovery",
+        "description": "Specialized water damage recovery service. We carefully clean, dry, and repair water-damaged devices to restore functionality."
+      },
+      "softwareRepair": {
+        "title": "Software & iOS Recovery",
+        "description": "Fix software issues, iOS recovery, system restore, and troubleshooting. Resolve boot loops, frozen screens, and system errors."
+      },
+      "androidRepair": {
+        "title": "Android Phone Repair",
+        "description": "Complete repair services for all Android smartphones including Samsung, Huawei, Xiaomi, and more."
+      },
+      "tabletRepair": {
+        "title": "Tablet & iPad Repair",
+        "description": "Professional repair services for iPads and tablets. Screen replacement, battery service, and more."
+      },
+      "dataRecovery": {
+        "title": "Data Recovery",
+        "description": "Recover your precious data from damaged or malfunctioning devices. Photos, contacts, and important files safely retrieved."
+      },
+      "phoneUnlocking": {
+        "title": "Phone Unlocking",
+        "description": "Professional phone unlocking services. Remove carrier locks and iCloud issues with safe and reliable methods."
+      },
+      "accessories": {
+        "title": "Accessories & Parts",
+        "description": "Quality accessories, cases, screen protectors, chargers, and replacement parts for all smartphone models."
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Al-Fky Center | Smartphone Repair in Giza",
+      "description": "Contact Al-Fky Center for professional smartphone repair services. Visit us at Ahmed Hassan St., Al Warraq, Giza or call 010004442488."
+    },
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help with all your device repair needs"
+    },
+    "info": {
+      "phone": {
+        "title": "Phone",
+        "value": "010004442488",
+        "hint": "Click to call directly"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "value": "010004442488",
+        "hint": "Click to chat on WhatsApp"
+      },
+      "facebook": {
+        "title": "Facebook",
+        "value": "Mahmoud Elfky",
+        "hint": "Follow us on Facebook"
+      },
+      "address": {
+        "title": "Address",
+        "value": "Ahmed Hassan St., Al Warraq, Al Warraq District, Giza Governorate",
+        "hint": "Click to open on Google Maps"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "value": "Daily: 1:00 PM – 12:00 AM (Midnight)",
+        "hint": "Open 7 days a week"
+      }
+    },
+    "map": {
+      "title": "Find Us on the Map",
+      "subtitle": "Visit our shop at Al Warraq, Giza"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Fill out the form and send directly via WhatsApp",
+      "name": "Your Name",
+      "phone": "Phone Number",
+      "message": "Your Message",
+      "submit": "Send via WhatsApp",
+      "namePlaceholder": "Enter your name",
+      "phonePlaceholder": "Enter your phone number",
+      "messagePlaceholder": "Describe your device issue or device model..."
+    }
+  }
+}

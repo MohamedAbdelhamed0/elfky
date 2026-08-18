@@ -1,0 +1,262 @@
+.hero {
+  position: relative;
+  padding-top: calc(var(--navbar-height) + var(--space-4xl));
+  padding-bottom: var(--space-3xl);
+  overflow: hidden;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+}
+
+.heroOrb {
+  position: absolute;
+  top: 10%;
+  inset-inline-start: 30%;
+  width: 500px;
+  height: 300px;
+  background: radial-gradient(ellipse, rgba(0, 212, 255, 0.07) 0%, transparent 70%);
+  filter: blur(40px);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+}
+
+/* Contact Cards */
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-lg);
+}
+
+.cardLink {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.contactCard {
+  text-align: center;
+  background: var(--color-glass);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl) var(--space-md);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all var(--transition-spring);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.contactCard:hover {
+  background: var(--color-glass-hover);
+  border-color: rgba(0, 212, 255, 0.25);
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-glow);
+}
+
+.cardHighlight {
+  border-color: rgba(0, 212, 255, 0.2);
+}
+
+.cardWhatsapp:hover {
+  border-color: rgba(16, 185, 129, 0.4);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.25);
+}
+
+.cardWhatsapp .cardIcon {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.cardFacebook:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.25);
+}
+
+.cardFacebook .cardIcon {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+}
+
+.cardIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background: var(--color-accent-gradient);
+  color: var(--color-bg-primary);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-md);
+  transition: transform var(--transition-base);
+  flex-shrink: 0;
+}
+
+.contactCard:hover .cardIcon {
+  transform: scale(1.1);
+}
+
+.cardTitle {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.cardValue {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-bottom: var(--space-sm);
+  flex: 1;
+}
+
+.cardHint {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-size-xs);
+  color: var(--color-accent);
+  font-weight: 600;
+  margin-top: auto;
+}
+
+/* Map + Form Grid */
+.mapFormGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3xl);
+  align-items: start;
+}
+
+/* Map */
+.mapSection {
+  background: var(--color-glass);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-2xl);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.mapTitle {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.mapSubtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xl);
+}
+
+.mapWrapper {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.mapIframe {
+  display: block;
+  width: 100%;
+  border-radius: var(--radius-lg);
+}
+
+.mapFooter {
+  margin-top: var(--space-lg);
+  text-align: center;
+}
+
+/* Form */
+.formSection {
+  background: var(--color-glass);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-2xl);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.formTitle {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.formSubtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xl);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.formLabel {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.formInput,
+.formTextarea {
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-base);
+  transition: all var(--transition-base);
+  outline: none;
+}
+
+.formInput::placeholder,
+.formTextarea::placeholder {
+  color: var(--color-text-muted);
+}
+
+.formInput:focus,
+.formTextarea:focus {
+  border-color: var(--color-accent);
+  background: rgba(0, 212, 255, 0.03);
+  box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.08);
+}
+
+.formTextarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .cardsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .mapFormGrid {
+    grid-template-columns: 1fr;
+  }
+}
