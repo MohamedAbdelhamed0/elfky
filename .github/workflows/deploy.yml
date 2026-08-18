@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
 
       - name: Setup GitHub Pages
@@ -36,6 +36,9 @@ jobs:
 
       - name: Build Next.js static site
         run: npx next build
+
+      - name: Ensure .nojekyll exists
+        run: touch ./out/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
