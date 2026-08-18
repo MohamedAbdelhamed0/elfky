@@ -13,14 +13,11 @@ npm install
 # Run development server
 npm run dev        # → http://localhost:3000
 
-# Build for production
-npm run build
+# Build static export for GitHub Pages
+npm run build      # → outputs to /out
 
-# Start production server
-npm start
-
-# Lint
-npm run lint
+# Deploy via GitHub Actions
+# Push to main branch, GitHub Actions will automatically deploy to GitHub Pages
 ```
 
 > **Note:** Node.js must be in PATH. If freshly installed, you may need:
