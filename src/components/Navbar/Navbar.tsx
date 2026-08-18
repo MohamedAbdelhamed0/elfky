@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher/LanguageSwitcher';
+import logoImg from '../../../public/images/logo.jpg';
 import styles from './Navbar.module.css';
 
 export function Navbar() {
@@ -46,7 +47,7 @@ export function Navbar() {
         <Link href="/" className={styles.brand}>
           <div className={styles.logoWrapper}>
             <Image
-              src="/images/logo.jpg"
+              src={logoImg}
               alt={t('brandName')}
               width={44}
               height={44}

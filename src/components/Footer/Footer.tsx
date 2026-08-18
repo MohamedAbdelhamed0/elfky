@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import { MapPin, Clock, Phone, MessageCircle, Facebook } from 'lucide-react';
+import logoImg from '../../../public/images/logo.jpg';
 import styles from './Footer.module.css';
 
 export function Footer() {
@@ -18,7 +19,7 @@ export function Footer() {
             <Link href="/" className={styles.brand}>
               <div className={styles.logoWrapper}>
                 <Image
-                  src="/images/logo.jpg"
+                  src={logoImg}
                   alt={t('brandName')}
                   width={48}
                   height={48}

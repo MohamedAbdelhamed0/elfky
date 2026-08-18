@@ -16,6 +16,7 @@ import {
   Facebook,
   Award,
 } from 'lucide-react';
+import mahmoudElfkyImg from '../../../../public/images/mahmoud-elfky.jpg';
 import styles from './About.module.css';
 
 export default function AboutPage() {
@@ -58,7 +59,7 @@ export default function AboutPage() {
               <div className={styles.bioAvatar}>
                 <div className={styles.avatarImageWrapper}>
                   <Image
-                    src="/images/mahmoud-elfky.jpg"
+                    src={mahmoudElfkyImg}
                     alt={t('bio.title')}
                     width={320}
                     height={380}
