@@ -19,21 +19,21 @@ export default function ContactPage() {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     const text = `السلام عليكم، أنا ${formData.name || 'عميل'}%0Aرقم الهاتف: ${formData.phone || 'غير محدد'}%0Aتفاصيل العطل: ${formData.message || 'استفسار عن صيانة جهاز'}`;
-    window.open(`https://wa.me/2010004442488?text=${text}`, '_blank');
+    window.open(`https://wa.me/201000442488?text=${text}`, '_blank');
   };
 
   const contactCards = [
     {
       key: 'phone',
       icon: <Phone size={24} />,
-      href: 'tel:010004442488',
+      href: 'tel:01000442488',
       actionText: t('info.phone.hint'),
       highlight: true,
     },
     {
       key: 'whatsapp',
       icon: <MessageCircle size={24} />,
-      href: 'https://wa.me/2010004442488',
+      href: 'https://wa.me/201000442488',
       actionText: t('info.whatsapp.hint'),
       highlight: true,
       whatsapp: true,
